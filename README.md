@@ -19,12 +19,12 @@ With support for **multi-language** synthesis and **custom voices**, this tool i
 
   - #### 🖥️ Windows
     ```sh
-    docker build -t magtronix_tts_image .
+    docker build --no-cache -t magtronix_tts_image .
     ```
 
   - #### 🐧 Linux
     ```sh
-      sudo docker build -t magtronix_tts_image .
+      sudo docker build --no-cache -t magtronix_tts_image .
     ```
 
 
